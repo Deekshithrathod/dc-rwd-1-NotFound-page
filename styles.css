@@ -1,0 +1,157 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav {
+  margin-top: 40px;
+}
+
+nav > span {
+  font-family: "Inconsolata";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-align: left;
+}
+
+main {
+  color: #4f4f4f;
+  font-family: "Space mono";
+  margin-top: 100px;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+main > img {
+  width: 540px;
+  margin-right: 120px;
+}
+
+main > div {
+  width: 50%;
+}
+
+.heading {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+  text-align: left;
+}
+
+.decription {
+  margin-top: 36px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  width: 380px;
+}
+
+.btn {
+  color: white;
+  background-color: #333333;
+
+  font-family: "Space Mono";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+
+  width: 216px;
+  height: 68px;
+
+  margin-top: 64px;
+}
+
+footer {
+  color: #bdbdbd;
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+
+  margin-bottom: 24px;
+  margin-top: auto;
+}
+
+footer > a {
+  color: #bdbdbd;
+}
+
+@media (max-width: 400px) {
+  body {
+    margin: 0px;
+    padding: 20px 24px;
+    display: flex;
+    flex-direction: column;
+    /* min-height: 100vh; */
+  }
+
+  nav {
+    margin-top: 0px;
+  }
+
+  main {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main > img {
+    margin: 30px 0px 0px 0px;
+    width: 350px;
+  }
+
+  .heading {
+    /* font-family: Space Mono; */
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -0.035em;
+    text-align: left;
+
+    width: 350px;
+    height: 142px;
+
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+
+  .decription {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: -0.035em;
+    text-align: left;
+    width: 328px;
+  }
+
+  .btn {
+    margin-top: 20px;
+    width: 216px;
+    height: 68px;
+  }
+
+  footer {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    /* letter-spacing: 0em; */
+    text-align: center;
+    /* padding-top: 5px; */
+    /* margin-top: auto; */
+    /* padding-bottom: 20px; */
+    height: 20px;
+  }
+}
