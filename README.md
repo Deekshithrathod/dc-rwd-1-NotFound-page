@@ -36,9 +36,9 @@
 
 ## Overview
 
-|                 Desktop                 |               Mobile                |
-| :-------------------------------------: | :---------------------------------: |
-| ![Project On Desktop](demo-desktop.png) | ![Demo On Desktop](demo-mobile.png) |
+|                    Desktop                     |                   Mobile                   |
+| :--------------------------------------------: | :----------------------------------------: |
+| ![Project On Desktop](public/demo-desktop.png) | ![Demo On Desktop](public/demo-mobile.png) |
 
 <!-- ![Project On Desktop](demo-desktop.png)
 ![Demo On Desktop](demo-mobile.png) -->
